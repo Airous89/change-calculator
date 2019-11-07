@@ -40,8 +40,8 @@ body{
          animation: backgroundScroll 50s linear infinite;
     background-position: 0px 0px;
     background-repeat: repeat-x;
-    background-color: #9EF2FF;
-    background-blend-mode: screen;
+    background-color: #5BE8FF ;
+    background-blend-mode: luminosity;
     
 
     
