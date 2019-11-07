@@ -37,7 +37,7 @@ body{
 .app {
     height: 100vh;
     width: 100%;
-    background: linear-gradient(to bottom right, var(--color-pink-transparent), var(--color-purple-transparent)), black url(https://assets.periscope.tv/images/map.svg);
+    background:  black url(https://assets.periscope.tv/images/map.svg);
 	-webkit-animation: backgroundScroll 50s linear infinite;
          animation: backgroundScroll 50s linear infinite;
     background-position: 0px 0px;
