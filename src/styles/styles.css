@@ -42,6 +42,7 @@ body{
          animation: backgroundScroll 50s linear infinite;
     background-position: 0px 0px;
     background-repeat: repeat-x;
+    background-image: linear-gradient(to bottom right, var(--color-pink-transparent), var(--color-purple-transparent)
 
     
     background-size: cover;
