@@ -23,8 +23,8 @@ body{
     --color-light-white:#eee;
 
     --color-screen: #4F7980;
-    /*--color-purple-transparent: #9EF2FF;
-    --color-pink-transparent: #2B7480;*/
+    --color-purple-transparent: #9EF2FF;
+    --color-pink-transparent: #2B7480;
 
     --color-orange: #5BE8FF;
 
@@ -37,6 +37,8 @@ body{
 .app {
     height: 100vh;
     width: 100%;
+    background-image: linear-gradient(to bottom right, var(--color-pink-transparent), var(--color-purple-transparent)), url(https://i.pinimg.com/originals/91/b5/cd/91b5cdab51e207263169904b227503b4.jpg);
+    
     background-size: cover;
     display: flex;
     justify-content: center;
