@@ -37,16 +37,25 @@ body{
 .app {
     height: 100vh;
     width: 100%;
-    background-image: url(https://assets.periscope.tv/images/map.svg);
-	background-position: 0px 0px;
-	background-repeat: repeat-x;
+    background:  black url(https://assets.periscope.tv/images/map.svg);
+	-webkit-animation: backgroundScroll 50s linear infinite;
+         animation: backgroundScroll 50s linear infinite;
+    background-position: 0px 0px;
+    background-repeat: repeat-x;
 
-	animation: animatedBackground 40s linear infinite;
     
     background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+@-webkit-keyframes backgroundScroll {
+  from {
+background-position: -1439px 0;
+  }
+  to {
+background-position: 0 0;
   }
 
 .calculator {
@@ -145,10 +154,13 @@ body{
     }
 }
 
-@keyframes animatedBackground {
-	from { background-position: 0 0; }
-	to { background-position: 100% 0; }
+@keyframes backgroundScroll {
+  from {
+background-position: -1439px 0;
+  }
+  to {
+background-position: 0 0;
+  }
 }
-
 
 
