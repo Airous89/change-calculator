@@ -37,7 +37,11 @@ body{
 .app {
     height: 100vh;
     width: 100%;
-    background-image: linear-gradient(to bottom right, var(--color-pink-transparent), var(--color-purple-transparent)), url(https://i.pinimg.com/originals/91/b5/cd/91b5cdab51e207263169904b227503b4.jpg);
+    background-image: url(bg-clouds.png);
+	background-position: 0px 0px;
+	background-repeat: repeat-x;
+
+	animation: animatedBackground 40s linear infinite;
     
     background-size: cover;
     display: flex;
@@ -139,6 +143,11 @@ body{
     .calculator {
         width: 80%;
     }
+}
+
+@keyframes animatedBackground {
+	from { background-position: 0 0; }
+	to { background-position: 100% 0; }
 }
 
 
