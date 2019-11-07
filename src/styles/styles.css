@@ -23,8 +23,6 @@ body{
     --color-light-white:#eee;
 
     --color-screen: #4F7980;
-    --color-purple-transparent: #9EF2FF;
-    --color-pink-transparent: #2B7480;
 
     --color-orange: #5BE8FF;
 
@@ -42,6 +40,8 @@ body{
          animation: backgroundScroll 50s linear infinite;
     background-position: 0px 0px;
     background-repeat: repeat-x;
+    background-color: #9EF2FF;
+    background-blend-mode: screen;
     
 
     
