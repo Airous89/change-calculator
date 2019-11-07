@@ -35,13 +35,14 @@ body{
 .app {
     height: 100vh;
     width: 100%;
-    background: url(https://upload.wikimedia.org/wikipedia/commons/8/80/World_map_-_low_resolution.svg);
+    background: linear-gradient(to right, #69B62F, #DE3375), url(https://upload.wikimedia.org/wikipedia/commons/8/80/World_map_-_low_resolution.svg);
 	-webkit-animation: backgroundScroll 50s linear infinite;
          animation: backgroundScroll 50s linear infinite;
     background-position: 0px 0px;
     background-repeat: repeat-x;
     background-color: #7EC2CC ;
     background-blend-mode: luminosity;
+    background-blend-mode: overlay;
     
 
     
