@@ -37,7 +37,7 @@ body{
 .app {
     height: 100vh;
     width: 100%;
-    background-image: url(bg-clouds.png);
+    background-image: url(https://assets.periscope.tv/images/map.svg);
 	background-position: 0px 0px;
 	background-repeat: repeat-x;
 
